@@ -1,4 +1,4 @@
 - name: wait Job
-  {{ collection_id }}.tower_job_wait:
+  {{ collection_id }}.job_wait:
     job_id: {{ job_id }}
   register: wait_job

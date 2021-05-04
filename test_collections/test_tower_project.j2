@@ -1,5 +1,5 @@
 - name: Create a project 
-  {{ collection_id }}.tower_project:
+  {{ collection_id }}.project:
     name: {{ project_name | default("Default project name") }}
     default_environment: {{ default_environment }}
     description: {{ description | default("default description") }}

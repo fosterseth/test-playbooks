@@ -1,5 +1,5 @@
 - name: Create a job template 
-  {{ collection_id }}.tower_job_template:
+  {{ collection_id }}.job_template:
     name: {{ job_template_name | default("Default jt name") }}
     execution_environment: {{ execution_environment }}
     description: {{ description | default("default description") }}
